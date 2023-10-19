@@ -1,45 +1,11 @@
-name: "Yay internet!"
-output_dir: "."
-navbar:
-  title: "Home"
-  right:
-    - text: "About"
-      href: about.html
-    - icon: fa-envelope fa-lg
-      href: mailto:<you@youremail.com>
-    - icon: fa-github fa-lg
-      href: http://github.com/<YOUR_GH_NAME>/
-output:
-  html_document:
-    theme: cerulean
-
-
 ---
-title: "My awesome website"
+title: "Projects"
 output: 
-  html_document:about
+  html_document:
     toc: true
     toc_float: true
-    theme: cerulean
 ---
-
-# This is Jeff's awesome website
-
-Here's a gif of elmo
-
-![](https://media.giphy.com/media/drXGoW1iudhKw/giphy.gif)
-
-
-you can add text
-
-*and lists
-*with extra bullet
-
-You can *FORMAT* and **bolds?**
-
-This is a [link](https://www.google.com/) to a good data science tool. Here's a link to [P8105](https://p8105.com). SOON: a link to another page on this site. 
-
-you can also still ues R!
+## Project
 
 ```{r}
 library(tidyverse)
@@ -53,18 +19,3 @@ plot_df |>
   ggplot(aes(x=x, y=y)) + 
   geom_point()
 ```
-
-
-
-# Here's a new section 
-
-My cat is ted. This is ted: 
-
-![](images/ted.jpg)
-
-Also here's the "backstage" are in the Alumi Auditorium:
-
-![](images/backstage.jpg)
-
-
-

@@ -1,29 +1,11 @@
 ---
 title: "About"
 output: 
-  html_document:about
+  html_document:
     toc: true
     toc_float: true
-    theme: cerulean
 ---
-
-# About
-
-Here's a gif of elmo
-
-![](https://media.giphy.com/media/drXGoW1iudhKw/giphy.gif)
-
-
-you can add text
-
-*and lists
-*with extra bullet
-
-You can *FORMAT* and **bolds?**
-
-This is a [link](https://www.google.com/) to a good data science tool. Here's a link to [P8105](https://p8105.com). SOON: a link to another page on this site. 
-
-you can also still ues R!
+## About
 
 ```{r}
 library(tidyverse)
@@ -37,18 +19,3 @@ plot_df |>
   ggplot(aes(x=x, y=y)) + 
   geom_point()
 ```
-
-
-
-# Here's a new section 
-
-My cat is ted. This is ted: 
-
-![](images/ted.jpg)
-
-Also here's the "backstage" are in the Alumi Auditorium:
-
-![](images/backstage.jpg)
-
-
-
