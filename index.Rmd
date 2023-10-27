@@ -1,5 +1,5 @@
 ---
-title: "My awesome website"
+title: "Hsin Yi's website"
 output: 
   html_document:
     toc: true
@@ -7,48 +7,25 @@ output:
     theme: cerulean
 ---
 
-# This is Jeff's awesome website
+# Hi, welcome back to my website
 
-Here's a gif of elmo
+This website will be mainly about who am I
 
-![](https://media.giphy.com/media/drXGoW1iudhKw/giphy.gif)
-
-
-you can add text
-
-*and lists
-*with extra bullet
-
-You can *FORMAT* and **bolds?**
-
-This is a [link](https://www.google.com/) to a good data science tool. Here's a link to [P8105](https://p8105.com). SOON: a link to [about](about.html) page on this site. 
-
-you can also still ues R!
-
-```{r}
-library(tidyverse)
-plot_df=
-  tibble(
-    x= runif(100), 
-    y= 2 + 2*x + rnorm(100)
-  )
-
-plot_df |> 
-  ggplot(aes(x=x, y=y)) + 
-  geom_point()
-```
+feel free to click the side menus to learn more!!
 
 
 
-# Here's a new section 
+# Hello
 
-My cat is ted. This is ted: 
+This is me, who went back to Taiwan over the summer!
 
-![](images/ted.jpg)
+<img src="image/myself.jpeg" style="width:75%">
 
-Also here's the "backstage" are in the Alumi Auditorium:
+# Experience
 
-![](images/backstage.jpg)
+My academic and professional experience [experience](experience.html)
 
+# Other stuff on this page
 
+Some plots that I created [plotly](plotly.html)
 

@@ -1,21 +1,15 @@
 ---
-title: "About"
+title: "About this website"
 output: 
   html_document:
     toc: true
     toc_float: true
 ---
-## About
 
-```{r}
-library(tidyverse)
-plot_df=
-  tibble(
-    x= runif(100), 
-    y= 2 + 2*x + rnorm(100)
-  )
+# About
 
-plot_df |> 
-  ggplot(aes(x=x, y=y)) + 
-  geom_point()
-```
+This policy is valid from October 26, 2023. 
+
+This blog is a personal blog written and edited by me. As the author of this blog, all materials copyrighted to Hsin Yi (Cindy) Tseng and belongs to Hsin Yi (Cindy) Tseng. 
+The content of this website, including plot, datasets, and other information is provided by P8105.com and taken from an educational website.
+Every attempt has been made to give appropriate credit to the original sources of the information. If any of the information is incomplete or in error please email the author. 
