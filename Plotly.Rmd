@@ -76,7 +76,7 @@ bar_plot
 ```
 
 
-A scatter plot!
+A scatter plot showing an average orders that was ordering within the day. 
 
 ```{r}
 instacart |> 
