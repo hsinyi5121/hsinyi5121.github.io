@@ -7,6 +7,10 @@ output:
 ---
 ## My academic and professional experience
 
+This is my resume!
+
+<img src="image/resume.jpg">
+
 I am currently a MPH student at Columbia University Mailman School of Public Health. I will be graduating in May 2024 with a Master of Public Health in Epidemiology and a focus on Applied Biostastistics and Public Health Data Science. I studied my undergraduate at San Jose State University with a Bachelor Degree of Public Health and minoring in Forensic Science. 
 
 Some of my professional experiences are that I am currently interning at CDC Injury Control Research Centers and working on a study about the trend of Pregabalin and Opioid from 2015 to 2022. In addition, I am also a co-founder for the SJSU Shield Campaign. During my time in the campaign, I was responsible for content development and execution. Also, I was a research assistant during my undergraduate. In my role as research assistant, I co-designed and managed 6 protocols and case report from development to study report showcases. Furthermore, I worked as a community leadership intern during my undergraduate, where I collaborated with various community stakeholders and initiatives evaluation protocols on current smoking control policy. Throughout my experiences with various of community and company, I published several papers and one of them are in both English and Chinese. 
