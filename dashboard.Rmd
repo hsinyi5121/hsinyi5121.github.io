@@ -30,7 +30,7 @@ instacart = instacart |>
         0 ~ "Sun"),
     order_dow = as.factor(order_dow)) |> 
   mutate(day_week = forcats::fct_relevel(order_dow, c("Mon", "Tues", "Wed", "Thurs", "Fri", "Sat", "Sun"))) |> 
-  sample_n(5000)
+  sample_n(50000)
 ```
 
 
@@ -41,15 +41,18 @@ Column {data-width=650}
 
 ```{r}
 #A line plot showing the counts of items in each aisle
+
+line_plot= 
 instacart |> 
   count(aisle) |> 
-  filter(n > 10000) |> 
   mutate(aisle = fct_reorder(aisle, n)) |> 
   mutate(rank = min_rank(desc(n))) |> 
   arrange(desc(n)) |>
   plot_ly(
     x = ~aisle, y = ~n, type = "scatter", mode = "markers",
     alpha = 0.5)
+
+line_plot
 ```
 
 Column {data-width=350}
@@ -61,8 +64,7 @@ Column {data-width=350}
 #A bar plot show what aisle had the most sale during a week.
 try_df =
   instacart |> 
-  count(aisle) |> 
-  filter(n > 10000) 
+  count(aisle)
   
 bar_plot =  
   inner_join(try_df, instacart, by = "aisle") |> 
@@ -76,6 +78,8 @@ bar_plot
 
 ```{r}
 #A scatter plot showing an average orders that was ordering within the day. 
+
+scatter_plot= 
 instacart |> 
   group_by(order_dow, order_hour_of_day) |> 
   summarise(avg_orders = n()) |> 
@@ -86,5 +90,7 @@ instacart |>
           color = ~order_dow,
           type = "scatter", mode = "markers",
      text = ~order_hour_of_day, alpha = 0.5)
+
+scatter_plot
 ```
 
