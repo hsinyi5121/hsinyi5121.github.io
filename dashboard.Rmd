@@ -29,7 +29,8 @@ instacart = instacart |>
         6 ~ "Sat",
         0 ~ "Sun"),
     order_dow = as.factor(order_dow)) |> 
-  mutate(day_week = forcats::fct_relevel(order_dow, c("Mon", "Tues", "Wed", "Thurs", "Fri", "Sat", "Sun")))
+  mutate(day_week = forcats::fct_relevel(order_dow, c("Mon", "Tues", "Wed", "Thurs", "Fri", "Sat", "Sun"))) |> 
+  sample_n(5000)
 ```
 
 
