@@ -27,5 +27,5 @@ My academic and professional experience [experience](experience.html)
 
 # Other stuff on this page
 
-Some plots that I created [plotly](plotly.html)
+Some plots that I created [Plotly](Plotly.html)
 
