@@ -25,7 +25,7 @@ This is me, who went back to Taiwan over the summer!
 
 My academic and professional experience [experience](experience.html)
 
-# Other stuff on this page
+# Other information on this page
 
 Some plots that I created [Plotly](Plotly.html)
 
