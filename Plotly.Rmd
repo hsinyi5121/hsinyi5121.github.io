@@ -17,7 +17,7 @@ library(plotly)
 ```
 
 
-Focus on NYC Airbnb data
+Focus on Instacart data
 
 ```{r}
 library(p8105.datasets)
